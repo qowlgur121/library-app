@@ -8,7 +8,6 @@ import java.util.List;
 
 @Repository
 public class UserRepository {
-
     private final JdbcTemplate jdbcTemplate;
 
     public UserRepository(JdbcTemplate jdbcTemplate) {
