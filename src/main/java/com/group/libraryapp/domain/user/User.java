@@ -33,4 +33,8 @@ public class User {
     public Long getId() {
         return id;
     }
+
+    public void updateName(String name) {
+        this.name = name;
+    }
 }
