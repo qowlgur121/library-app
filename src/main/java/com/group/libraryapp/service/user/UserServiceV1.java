@@ -17,7 +17,7 @@ public class UserServiceV1 {
         this.userJdbcRepository = userJdbcRepository;
     }
 
-    public void userSave(UserCreateRequest request) {
+    public void saveUser(UserCreateRequest request) {
         userJdbcRepository.saveUser(request.getName(), request.getAge());
     }
 
